@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header .logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logoFoto {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.contenedor-sobremi {
+  text-align: center;
+}
+.btn-sobremi {
+  display: inline-block;
+  background-color: #ae10e76c;
+  width: 100px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  background-color: #ae10e76c;
+  color: #262525eb;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84.688%;
+  text-align: center;
+  padding: 10px;
+}
+
+.subtitulo {
+  background-color: #ae10e76c;
+  color: #262525eb;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84.688%;
+  letter-spacing: 5px;
+  padding: 10px 0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.datos-personales li {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.negrita {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.formacion-academica,
+.experiencia-laboral {
+  font-family: "Roboto", sans-serif;
+}
+.formacion-academica ul li:nth-child(2) {
+  padding-left: 10px;
+}
+.formacion-academica ul li:last-child {
+  padding-left: 10px;
+}
+
+.item-academico,
+.item-laboral {
+  margin-bottom: 10px;
+}
+
+.experiencia-laboral ul li:nth-child(2) {
+  padding-left: 10px;
+}
+.experiencia-laboral ul li:last-child {
+  padding-left: 10px;
+}
+
+.footer {
+  background: #ae10e76c;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer .textoBatman {
+  color: #fff;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84.688%;
+}
